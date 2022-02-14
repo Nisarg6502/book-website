@@ -1,0 +1,38 @@
+.cardstyle{
+    /* border: 1px solid; */
+    /* background-color: transparent; */
+    border-radius: 32px;
+background: linear-gradient(145deg, #e6e6e6, #ffffff);
+box-shadow:  22px 22px 44px #c4c4c4,
+             -22px -22px 44px #ffffff;
+}
+
+.aboutus{
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 13px );
+-webkit-backdrop-filter: blur( 13px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.imgenlarge{
+    transition: transform .2s;
+    background-color: transparent;
+box-shadow:  22px 22px 44px #c4c4c4,
+             -22px -22px 44px #ffffff;
+}
+
+.imgenlarge:hover{
+    transform: scale(2.0);
+}
+
+Body{
+background: linear-gradient(145deg, #e6e6e6, #ffffff);
+
+}
+
+/* .Firstpart{
+background: linear-gradient(145deg, #e6e6e6, #ffffff);
+
+} */
