@@ -6,38 +6,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!--Bootstrap css link-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" href="Images\Book Cover.png">
     <title>Nisarg Kudgunti</title>
 </head>
 
 <body style="padding: 0;">
     <!--navbar-->
     <nav class="navbar navbar-expand-lg col-auto navbar-light fixed-top">
-        <a class="navbar-brand" href="index.html">Nisarg Kudgunti</a>
+        <a class="navbar-brand ml-5 hover-underline-animation" href="index.html">Nisarg Kudgunti</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto ">
+            <ul class="navbar-nav ml-auto mr-5">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                    <a class="nav-link font-weight-bold" href="#about">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item bg-dark rounded">
+                    <a class="nav-link text-light font-weight-bold" href="#buy">Buy</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Buy</a>
+                    <a class="nav-link text-dark font-weight-bold" href="#music">Music</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <!--image-->
-    <div class="container container-fluid img-fluid" style="width: fit-content;">
-        <img height="600px" class="img-responsive mx-auto" src="Images/1644832532.png" alt="">
+    <div class="container container-fluid img-fluid mt-4" style="width: fit-content;">
+        <img height="600px" class="img-responsive  mx-auto" src="Images/1644832532.png" alt="">
     </div>
 
     <hr>
+
+    <!--About the book-->
+    <div class="Firstpart" id="about">
+        <br>
+        <div class="container container-fluid aboutus">
+            <h2 style="text-align: center;">About the Book</h2>
+            <p style="text-align: center;">This book is a cathartic compilation of poems that change a person's
+                perspective on life. The readers will find this ensemble relatable to their lives as they immerse into
+                it. This book offers a myriad of poetry types ranging from inspiring poems to heartfelt ones, from
+                sonnets to elegy. This book will detach you frora this world and take you towards an ethereal journey.
+                Delve right into the book and discover a profound meaning of life that will leave a lasting impact..</p>
+            <br>
+            <br>
+
+        </div>
+        <br>
+        <br>
+
+        <hr>
+    </div>
+    <!--About the author-->
     <div class="Firstpart">
         <br>
         <div class="container container-fluid aboutus">
@@ -45,46 +70,56 @@
             <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et beatae tenetur
                 assumenda, voluptas pariatur earum, fugit eveniet veniam, quasi magnam odio. Earum omnis similique
                 voluptatibus dicta quo placeat cum iure.</p>
+            <br>
+            <br>
+
         </div>
         <br>
         <br>
 
         <hr>
     </div>
+
+    <!--Available at-->
     <!--Cards-->
-    <div class="container container-fluid">
-        <h1 style="font-size: 4em; text-align: center;">Available On</h1>
+    <div class="container container-fluid" id="buy">
+        <center>
+            <h1 style="font-size: 4em; text-align: center; width: fit-content;" class="hover-underline-animation">
+                Available
+                On</h1>
+        </center>
         <br>
         <div class="card-deck">
             <div class="card cardstyle">
                 <img class="card-img-top" src="Images\amazon-background.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Amazon</h5>
+                    <h5 class="card-title"><u>Amazon</u></h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                         additional
                         content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text"><small class="text-muted">Buy</small></p>
                 </div>
             </div>
             <div class="card cardstyle">
                 <img class="card-img-top" src="Images/flipkart.png" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Flipkart</h5>
+                    <hr>
                     <p class="card-text">This card has supporting text below as a natural lead-in to additional
                         content.
                     </p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text"><small class="text-muted">Buy</small></p>
                 </div>
             </div>
             <div class="card cardstyle">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src="Images/kindle.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Amazon Kindle</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                         additional
-                        content. This card has even longer content than the first to show that equal height action.
+                        content.
                     </p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text"><small class="text-muted">Buy</small></p>
                 </div>
             </div>
         </div>
@@ -94,16 +129,47 @@
     <hr>
     <br>
 
-    <div class="container container-fluid spotifycode">
+    <!--third part-->
+    <div class="container container-fluid spotifycode" id="music">
         <div class="row">
-            <div class="col" style="margin-left: 5rem;">
-                <h1 style="font-size: 4em;">Enjoy with Music</h1>
+            <div class="col" style="padding-left: 5rem;">
+                <h1 style="font-size: 4em;" class="hover-underline-animation">Enjoy with Music</h1>
                 <p class="text-secondary">A playlist curated along the theme of the book</p>
+                <br>
+                <a
+                    href="https://open.spotify.com/playlist/5zuqRvgm0SpWAgVG4jJCYm?si=KfZWjZsSTU68l8gyFYZNdw&utm_source=copy-link">
+                    <img class="imgenlarge2" id="listenonspotify" width="300px" src="Images\spotify.png" alt="">
+                </a>
             </div>
             <div class="col">
-                <img class="imgenlarge" width="200px" src="Images/Final Back Cover - nisarg6502@gmail.com.jpg" alt="">
+                <div class="row">
+                    <div class="col">
+                        <p class="float-right text-secondary">
+                        <ul>
+                            <li>Open Spotify</li>
+                            <li>Scan the Spotify Code on the back of the
+                                book</li>
+                            <li>Get a
+                                taste of
+                                perfect music along
+                                with reading</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="col" style="width:auto;">
+                        <img class="imgenlarge float-left" width="200px"
+                            src="Images/Final Back Cover - nisarg6502@gmail.com.jpg" alt="">
+                    </div>
+                </div>
             </div>
         </div>
+        <br>
+        <br>
+
+        <img width="350px" class="img-fluid imgenlarge2" style="display: block; margin: auto;" src="Images\spcode.png"
+            alt="">
+        <br>
+        <p class="text-center">Or scan right here on this website</p>
     </div>
 
     <br>

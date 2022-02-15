@@ -26,12 +26,51 @@ box-shadow:  22px 22px 44px #c4c4c4,
 .imgenlarge:hover{
     transform: scale(2.0);
 }
+.imgenlarge2{
+    transition: transform .2s;
+    background-color: transparent;
+box-shadow:  22px 22px 44px #c4c4c4,
+             -22px -22px 44px #ffffff;
+}
+
+.imgenlarge2:hover{
+    transform: scale(1.2);
+}
 
 Body{
 background: linear-gradient(145deg, #e6e6e6, #ffffff);
-
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+#listenonspotify{
+    border-radius: 1rem;
+}
+
+.hover-underline-animation {
+  position: relative;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom ;
+}
 /* .Firstpart{
 background: linear-gradient(145deg, #e6e6e6, #ffffff);
 
