@@ -71,7 +71,7 @@ html {
   transform: scaleX(1);
   transform-origin: bottom ;
 }
-/* .Firstpart{
-background: linear-gradient(145deg, #e6e6e6, #ffffff);
 
-} */
+.headings{
+  width: fit-content;
+}

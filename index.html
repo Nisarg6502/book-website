@@ -23,11 +23,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto mr-5">
-                <li class="nav-item active">
-                    <a class="nav-link font-weight-bold" href="#about">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item bg-dark rounded">
+                <li class="nav-item bg-dark rounded active">
                     <a class="nav-link text-light font-weight-bold" href="#buy">Buy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark font-weight-bold" href="#about">About <span
+                            class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-dark font-weight-bold" href="#music">Music</a>
@@ -43,42 +44,6 @@
 
     <hr>
 
-    <!--About the book-->
-    <div class="Firstpart" id="about">
-        <br>
-        <div class="container container-fluid aboutus">
-            <h2 style="text-align: center;">About the Book</h2>
-            <p style="text-align: center;">This book is a cathartic compilation of poems that change a person's
-                perspective on life. The readers will find this ensemble relatable to their lives as they immerse into
-                it. This book offers a myriad of poetry types ranging from inspiring poems to heartfelt ones, from
-                sonnets to elegy. This book will detach you frora this world and take you towards an ethereal journey.
-                Delve right into the book and discover a profound meaning of life that will leave a lasting impact..</p>
-            <br>
-            <br>
-
-        </div>
-        <br>
-        <br>
-
-        <hr>
-    </div>
-    <!--About the author-->
-    <div class="Firstpart">
-        <br>
-        <div class="container container-fluid aboutus">
-            <h2 style="text-align: center;">About the Author</h2>
-            <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et beatae tenetur
-                assumenda, voluptas pariatur earum, fugit eveniet veniam, quasi magnam odio. Earum omnis similique
-                voluptatibus dicta quo placeat cum iure.</p>
-            <br>
-            <br>
-
-        </div>
-        <br>
-        <br>
-
-        <hr>
-    </div>
 
     <!--Available at-->
     <!--Cards-->
@@ -94,45 +59,74 @@
                 <img class="card-img-top" src="Images\amazon-background.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title"><u>Amazon</u></h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                        additional
-                        content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Buy</small></p>
+                    <button type="button" class="btn btn-secondary btn-lg btn-block">Buy</button>
                 </div>
             </div>
             <div class="card cardstyle">
                 <img class="card-img-top" src="Images/flipkart.png" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Flipkart</h5>
+                    <h5 class="card-title"><u>Flipkart</u></h5>
                     <hr>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                        content.
-                    </p>
-                    <p class="card-text"><small class="text-muted">Buy</small></p>
+
                 </div>
             </div>
             <div class="card cardstyle">
                 <img class="card-img-top" src="Images/kindle.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Amazon Kindle</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional
-                        content.
-                    </p>
-                    <p class="card-text"><small class="text-muted">Buy</small></p>
+                    <h5 class="card-title"><u>Amazon Kindle</u></h5>
+                    <hr>
+
                 </div>
             </div>
         </div>
     </div>
     <br>
-    <br>
     <hr>
-    <br>
+    <!--About the book-->
+    <div class="Firstpart" id="about">
+        <br>
+        <div class="container container-fluid aboutus">
+            <center>
+                <div class="headings">
+                    <h2 style="text-align: center;" class="mt-2 hover-underline-animation">About the Book</h2>
+                </div>
+            </center>
+            <p style="text-align: center;">This book is a cathartic compilation of poems that change a person's
+                perspective on life. The readers will find this ensemble relatable to their lives as they immerse into
+                it. This book offers a myriad of poetry types ranging from inspiring poems to heartfelt ones, from
+                sonnets to elegy. This book will detach you frora this world and take you towards an ethereal journey.
+                Delve right into the book and discover a profound meaning of life that will leave a lasting impact..</p>
+
+        </div>
+        <br>
+        <br>
+
+        <hr>
+    </div>
+    <!--About the author-->
+    <div class="Firstpart">
+        <br>
+        <div class="container container-fluid aboutus">
+            <center>
+                <div class="headings">
+                    <h2 style="text-align: center;" class="mt-2 hover-underline-animation">About the Author</h2>
+                </div>
+            </center>
+            <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et beatae tenetur
+                assumenda, voluptas pariatur earum, fugit eveniet veniam, quasi magnam odio. Earum omnis similique
+                voluptatibus dicta quo placeat cum iure.</p>
+
+        </div>
+        <br>
+        <br>
+
+        <hr>
+    </div>
 
     <!--third part-->
     <div class="container container-fluid spotifycode" id="music">
         <div class="row">
-            <div class="col" style="padding-left: 5rem;">
+            <div class="col pt-3 pb-3" style="padding-left: 5rem;">
                 <h1 style="font-size: 4em;" class="hover-underline-animation">Enjoy with Music</h1>
                 <p class="text-secondary">A playlist curated along the theme of the book</p>
                 <br>
@@ -141,12 +135,12 @@
                     <img class="imgenlarge2" id="listenonspotify" width="300px" src="Images\spotify.png" alt="">
                 </a>
             </div>
-            <div class="col">
+            <div class="col pt-4">
                 <div class="row">
                     <div class="col">
                         <p class="float-right text-secondary">
                         <ul>
-                            <li>Open Spotify</li>
+                            <li>Open <a href="https://www.spotify.com/">Spotify</a></li>
                             <li>Scan the Spotify Code on the back of the
                                 book</li>
                             <li>Get a
@@ -173,7 +167,28 @@
     </div>
 
     <br>
+    <div class="embed" style="text-align: center;">
+        <iframe style="border-radius:12px"
+            src="https://open.spotify.com/embed/playlist/5zuqRvgm0SpWAgVG4jJCYm?utm_source=generator" width="350px"
+            height="80" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    </div>
     <br>
+
+    <footer class="container-fluid">
+        <div class="col">
+            <div class="row d-flex justify-content-center">
+                <h5>
+                    © Nisarg Kudgunti 2021
+                </h5>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <p>
+                    All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
 
     </div <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
@@ -184,6 +199,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
