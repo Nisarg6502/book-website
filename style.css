@@ -54,9 +54,15 @@ Body{
 background: linear-gradient(145deg, #e6e6e6, #ffffff);
 }
 
+html,body{
+    overflow-x: hidden;
+}
+
 html {
   scroll-behavior: smooth;
 }
+
+
 
 #listenonspotify{
     border-radius: 1rem;
@@ -118,4 +124,19 @@ html {
               inset -2px -2px 4px rgba(255, 255, 255, .5),
               inset 2px 2px 2px rgba(255, 255, 255, .075),
               inset 2px 2px 4px rgba(0, 0, 0, .15);
+}
+
+.restext{
+  font-size: 4em;
+}
+
+@media screen and (max-width: 530px) {
+  .restext {
+    font-size: 3em;
+  }
+}
+@media screen and (max-width: 400px) {
+  .restext {
+    font-size: 2.5em;
+  }
 }
