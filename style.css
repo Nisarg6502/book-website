@@ -129,6 +129,9 @@ html {
 .restext{
   font-size: 4em;
 }
+.restext2{
+  font-size: 4em;
+}
 
 .navbar{
   background-color: transparent;
@@ -138,10 +141,18 @@ html {
   .restext {
     font-size: 3em;
   }
+  .restext2{
+    font-size: 2.2em;
+    margin: auto;
+  }
 }
 @media screen and (max-width: 400px) {
   .restext {
     font-size: 2.5em;
+  }
+  .restext2 {
+    font-size: 1.7em;
+    margin: auto;
   }
 }
 @media screen and (max-width: 1000px) {
