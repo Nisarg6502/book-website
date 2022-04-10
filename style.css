@@ -149,3 +149,9 @@ html {
     background-color:#c4c4c493;
   }
 }
+@media screen and (max-width: 760px) {
+  .imgenlarge:hover{
+    transform: scale(1.2);
+}
+}
+
